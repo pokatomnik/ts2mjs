@@ -7,7 +7,8 @@
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist/*",
     "serve": "echo you may use any web serve for serving compiled assets",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "tscheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
