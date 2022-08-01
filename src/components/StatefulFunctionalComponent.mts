@@ -1,4 +1,4 @@
-import { html, Hooks } from "../lib/preact.mjs";
+import { html, Hooks } from '../lib/preact.mjs';
 
 export function StatefulFunctionalComponent() {
   const [clickedTimes, setClickedTimes] = Hooks.useState(0);

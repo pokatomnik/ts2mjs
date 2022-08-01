@@ -1,4 +1,4 @@
-import Preact, { html } from "../lib/preact.mjs";
+import Preact, { html } from '../lib/preact.mjs';
 
 export class StatelessClassComponent extends Preact.Component {
   public render() {
