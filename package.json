@@ -10,8 +10,8 @@
     "prettier": "prettier --write .",
     "tscheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["mjs", "ECMAScript modules", "preact"],
+  "author": "Danilian Akhmedzianov",
   "license": "ISC",
   "devDependencies": {
     "htm": "^3.1.1",
