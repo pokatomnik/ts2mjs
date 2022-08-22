@@ -7,7 +7,7 @@ export class StatefulClassComponent extends Preact.Component<
   public readonly state: Readonly<{
     clickedTimes: number;
   }> = {
-    clickedTimes: 0,
+    clickedTimes: 1,
   };
 
   private increase = () => {

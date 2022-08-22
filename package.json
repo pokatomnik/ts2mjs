@@ -6,17 +6,25 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist/*",
-    "serve": "echo you may use any web serve for serving compiled assets",
+    "serve": "serve .",
     "prettier": "prettier --write .",
-    "tscheck": "tsc --noEmit"
+    "tscheck": "tsc --noEmit",
+    "watch": "tsc --watch",
+    "dev": "concurrently --kill-others npm:serve npm:watch"
   },
-  "keywords": ["mjs", "ECMAScript modules", "preact"],
+  "keywords": [
+    "mjs",
+    "ECMAScript modules",
+    "preact"
+  ],
   "author": "Danilian Akhmedzianov",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^7.3.0",
     "htm": "^3.1.1",
     "preact": "^10.10.0",
     "prettier": "2.7.1",
+    "serve": "^14.0.1",
     "typescript": "^4.7.4"
   }
 }
